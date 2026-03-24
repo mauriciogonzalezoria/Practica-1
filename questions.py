@@ -1,12 +1,12 @@
 import random
-categorias = { 'programacion':[
-    "python","programa","variable","funcion","bucle","cadena","entero","lista"],
-    'colores':['rojo', 'amarillo','verde','azul'],
-    'futbol':['estudiantes','gimnasia','boca','river']
+categorias = {
+'programacion':["python","programa","variable","funcion","bucle","cadena","entero","lista"],
+'colores':['azul','rojo','verde','amarillo','celeste'],
+'futbol':['estudiantes','gimnasia','river','boca']              
 }
 for categoria in categorias:
-    print (categoria)
-categoria = input('elegi una categoria: ')
+    print(categoria)
+categoria=input('eliga una categoria: ')
 while categoria not in categorias:
     print('categoria invalida')
     categoria=input('eliga otra categoria: ')
